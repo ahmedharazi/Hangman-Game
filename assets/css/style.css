@@ -1,0 +1,185 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+   
+    line-height: 150%;
+    color: rgb(245, 6, 6);
+    background-color: rgb(241, 241, 241);
+}
+
+
+/* content */
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+#rules {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#gameWord {
+    margin-bottom: 6px;
+}
+
+#gameWord,
+#word,
+#rules {
+    color: #0e0901;
+}
+
+#rules {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #4aaaa5;
+}
+
+#word {
+    font-size: 1.7em;
+}
+
+.category {
+    color: #3399ff;
+}
+
+.load {
+    color: #ffe605;
+}
+
+.fa-spinner {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.message {
+    font-size: 25px;
+    color: #40ff00;
+    font-weight: bold;
+}
+
+#hangman-img-holder {
+    width: 2222000px;
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+#hangman-img {
+    padding: 4px;
+    margin-top: 6px;
+    background-color: #000;
+    border: 6px solid #222;
+}
+
+
+/* header */
+
+.navbar-default {
+    background-color: #6c8c94;
+    border-color: #101;
+    padding-bottom: 50px;
+    color: #111;
+    text-shadow: 2px 2px 4px #e9e507;
+}
+
+h1 {
+    font-size: 7em;
+    text-align: center;
+}
+
+
+/* letter buttons */
+
+.panel .panel-body {
+    padding: 7px 0px 0px 7px;
+    background-color: rgb(184, 200, 204);
+}
+
+.panel {
+    border: 15px solid rgb(3, 78, 100);
+    margin-right: 5px;
+}
+
+.liActive,
+.liDisabled {
+    width: 36px;
+    height: 36px;
+    line-height: 26px;
+    cursor: pointer;
+    color: #000;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #5bbbb9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: inline-block;
+}
+
+.liActive li:hover {
+    background-color: #888;
+    cursor: pointer;
+}
+
+.liActive {
+    background-color: #3399ff;
+}
+
+.liDisabled {
+    background-color: #888;
+    border: 1px solid #898;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #6c8c94;
+    color: rgb(7, 6, 6);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    clear: both;
+}
+
+
+/* media query */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1300px;
+        height: 260px;
+    }
+}
+
+@media (max-width: 414px) {
+    .liActive,
+    .liDisabled {
+        width: 22px;
+        height: 42px;
+        line-height: 30px;
+        margin: 4px;
+    }
+    .panel {
+        margin: 15px;
+    }
+    .panel .panel-body {
+        padding: 30px 0px 0px 30px;
+        background-color: #222;
+    }
+    #hangman-img-holder {
+        margin-top: 30px;
+    }
+    #rules {
+        text-align: left;
+        margin-left: 35px;
+        margin-bottom: 30px;
+    }
+    .margin-top-20 {
+        margin-top: 30px;
+    }
+}
