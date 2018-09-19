@@ -1,5 +1,3 @@
-# Hangman-Game
-https://ahmedharazi.github.io/Hangman-Game/
 
 
 # Word-Guess-Game (HangMan)
@@ -22,3 +20,5 @@ These app will run in the browser, and feature dynamically updated HTML and CSS 
 ![app Image](/assets/images/GuessGame.png)
 
 ## You can see the app on the following link
+
+https://ahmedharazi.github.io/Hangman-Game/
