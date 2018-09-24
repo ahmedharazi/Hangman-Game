@@ -7,8 +7,9 @@ html {
 body {
    
     line-height: 150%;
-    color: rgb(245, 6, 6);
+    color: rgb(206, 99, 12);
     background-color: rgb(241, 241, 241);
+    
 }
 
 
@@ -82,7 +83,7 @@ body {
     border-color: #101;
     padding-bottom: 50px;
     color: #111;
-    text-shadow: 2px 2px 4px #e9e507;
+    text-shadow: 2px 2px 4px #e90778;
 }
 
 h1 {
@@ -99,7 +100,7 @@ h1 {
 }
 
 .panel {
-    border: 15px solid rgb(3, 78, 100);
+    border: 10px solid rgb(0, 0, 0);
     margin-right: 5px;
 }
 
@@ -113,7 +114,7 @@ h1 {
     margin: 5px;
     text-align: center;
     font-weight: bold;
-    border: 1px solid #5bbbb9;
+    border: 1px solid #000303;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     display: inline-block;
@@ -130,7 +131,7 @@ h1 {
 
 .liDisabled {
     background-color: #888;
-    border: 1px solid #898;
+    border: 1px solid rgb(0, 7, 0);
 }
 
 
@@ -140,13 +141,22 @@ footer {
     background-color: #6c8c94;
     color: rgb(7, 6, 6);
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 25px;
+    padding-top:100px;
+    padding-bottom: 40px;
     font-size: 20px;
     clear: both;
+    margin-bottom: 20px;
+    border: #000 5px;
+
 }
 
+.container1{
+    width: 1300px;
+    height: 20px;
+    border: #000 5px;
+    margin: 0 auto;
 
+}
 /* media query */
 
 @media (min-width: 1200px) {
