@@ -1,6 +1,6 @@
 
 
-# :HangMan: Word-Guess-Game (HangMan)
+#  Word-Guess-Game (HangMan)
 The app randomly picks a letter, and the user has to guess which letter the app chose.
 
 On Wins: it is showing numbers of times the user has guessed the letter correctly
